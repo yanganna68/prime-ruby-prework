@@ -10,3 +10,4 @@ def prime?(int)
       end
   end
 end
+end
