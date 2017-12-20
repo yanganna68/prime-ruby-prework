@@ -1,6 +1,6 @@
 def prime?(int)
   (2...int).each do |num|
-    if int % num == 0
+    if int % num == 0 || num < 0
       return false
     else
       return true
