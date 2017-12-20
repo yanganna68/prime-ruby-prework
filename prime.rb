@@ -1,5 +1,5 @@
 def prime?(int)
-  if int <= 0
+  if int <= 1
     return false
   else
     (2...int).each do |num|
